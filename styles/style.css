@@ -157,19 +157,21 @@
     word-spacing: 18px;
     padding-top: 12px;
     padding-bottom: 12px;
+    white-space: nowrap;
 }
 .cover__description-button{
     background-color: transparent;
     color: #FFF;
     text-align: center;
     font-family: Raleway, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
     border: 1px solid #FFF;
     padding: 12px 32px 12px 32px;
+    white-space: nowrap;
     
 }
 .lots{
@@ -302,7 +304,7 @@
     padding: 180px 50px 90px 50px;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 .footer__links-list{
     display: flex;
@@ -312,7 +314,7 @@
 }
 .footer__social-list{
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
 }
 .footer__social-list-item{
     list-style: none;
